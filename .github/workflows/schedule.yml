@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: waka-box
-        uses: matchai/waka-box@v4.0.3
+      - name: Update gist
+        uses: fuujiro/waka-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 4d3a2f446e5ba67e08ed3f02efd9a6e8
